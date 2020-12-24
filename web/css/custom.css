@@ -1,0 +1,118 @@
+/*  ----------- Custom ------------  */
+
+
+/*****************  Main  ********************/
+.main-content {
+    margin-top: -22px;
+    padding-top: 40px;
+}
+
+div.yii-debug-toolbar {
+    display: none !important;
+}
+
+/*.main-menu.navbar-default {*/
+/*    background-color: #141313 !important;*/
+/*    border: none !important;*/
+/*}*/
+
+article {
+    border: none !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #e2e2e2 !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover  {
+    color: #60c7eb !important;
+}
+
+.navbar-default .btn-link {
+    color: #e2e2e2 !important;
+}
+
+.navbar-default .btn-link:hover {
+    color: #60c7eb !important;
+    text-decoration: none !important;
+}
+
+.main-menu .navbar-brand > img {
+    width: 120px;
+}
+
+.main-menu.navbar-default {
+    background-color: #503b3b !important;
+    border: none !important;
+}
+
+.bottom-comment {
+    background: #c9c9c9;
+    margin: 10px 0 !important;
+}
+
+button.logout {
+    border: none !important;
+}
+
+button.logout:active, button.logout:focus {
+    outline: none !important;
+}
+
+button.logout::-moz-focus-inner {
+    border: 0 !important;
+}
+
+.footer-copy {
+    margin-top: 18px;
+}
+
+/*Login*/
+ .mr0 {
+     margin-top: -20px !important;
+     margin-bottom: -20px !important;
+     padding-top: 10% !important;
+     padding-bottom: 15% !important;
+ }
+
+/*Comments*/
+.form-horizontal .form-group {
+    margin-right: -6px !important;
+    margin-left: -7px !important;
+}
+
+/*Tag*/
+div.decoration.tag a {
+    margin: 0px 0 0px 0;
+    color: #fff;
+    border: 1px solid #967f7f;
+    background-color: #967f7f;
+}
+
+div.decoration.tag  a:hover {
+    color: #967f7f;
+    border: 1px solid #967f7f;
+    background-color: #fff;
+}
+
+div.decoration a {
+    color: #967f7f;
+    border: 1px solid #967f7f;
+    width: fit-content !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+div.decoration  a:hover {
+    color: #fff;
+    border: 1px solid #967f7f;
+    background-color: #967f7f;
+}
+
+
+/***********  Admin  *************/
+footer.admin {
+    color: #fff;
+    border: 1px solid #967f7f;
+    background-color: #000000 !important;
+}
